@@ -1,0 +1,47 @@
+.left-box{
+    display: flex;
+    gap:3rem;
+}
+.nav-bar{
+    display: flex;
+   background-color: rgb(23,111,162);
+   justify-content: space-between;
+   padding: 1%;
+}
+
+.nav-child{
+    display: flex;
+    gap:2rem;
+   align-items: center;
+
+}
+
+.nav-child > div{
+    color: white;
+    font-size: 0.8rem;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+}
+
+.heading:hover{
+    color: #74c5f7;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.home-svg:hover{
+fill: #74c5f7;
+}
+.button-Schedule{
+ display: flex;
+ align-items: center;
+ background-color: white;
+  margin: 1.7% 0;
+ padding: 0 3%;
+ border-radius: 3rem;
+ box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 5px 20px 0 rgba(0,0,0,0.19);
+ font-family: 'Poppins', sans-serif;
+}
+.button-Schedule:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
