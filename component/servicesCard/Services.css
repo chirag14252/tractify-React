@@ -1,0 +1,14 @@
+.card-section{
+    display: flex;
+    justify-content: center;
+    margin: 2% 0
+}
+.card-services{
+    display: flex;
+    gap:3rem;
+    justify-content: center;
+    width: fit-content;
+    background-color: rgb(241,241,241);
+    padding: 5%;
+    border-radius: 10px;
+}

@@ -1,0 +1,9 @@
+
+.img-serviceCard{
+    display: flex;
+    border-radius: 10px;
+}
+
+.data_numbers{
+    text-align: center;
+}
