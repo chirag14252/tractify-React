@@ -1,7 +1,10 @@
 .card-section{
     display: flex;
     justify-content: center;
-    margin: 2% 0
+    margin: 2% 0;
+    position: relative;
+    bottom: 9rem;
+   
 }
 .card-services{
     display: flex;
@@ -11,4 +14,5 @@
     background-color: rgb(241,241,241);
     padding: 5%;
     border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
