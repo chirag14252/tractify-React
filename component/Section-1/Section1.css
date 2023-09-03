@@ -16,9 +16,10 @@
     line-height: 28px;
     font-family: 'Poppins', sans-serif;
 }
-.img{
+.img {
     vertical-align: middle;
-    max-width: 100px;   
+    width: 100px; /* Set a fixed width */
+    height: 100px; /* Set a fixed height */
 }
 
 .heading-section{
@@ -32,3 +33,25 @@
     color:rgb(6,95,145);
 }
 
+@media screen and (max-width: 768px) {
+    .section {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .img {
+        max-width: 80px; /* Reduce image size for smaller screens */
+    }
+
+    .para-section,
+    .heading-section,
+    .heading-section1 {
+        font-size: 14px; /* Reduce text size for smaller screens */
+    }
+}
+
+.img-section{
+    display: flex;
+    align-items: center;
+}

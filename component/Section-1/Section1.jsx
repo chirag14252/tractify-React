@@ -30,8 +30,8 @@ const Section1 = () => {
                     </p>
                 </div>
             </div>
-                <div >
-                <img src="https://www.ongraph.com/wp-content/uploads/2023/07/t_notch-1.png" alt="" srcset=""/>
+                <div className="img-section">
+                <div><img src="https://www.ongraph.com/wp-content/uploads/2023/07/t_notch-1.png" alt="" srcset=""/></div>
                 </div>
         </div>
     )
