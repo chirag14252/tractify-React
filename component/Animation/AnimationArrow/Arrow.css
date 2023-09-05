@@ -1,0 +1,21 @@
+.img-arrow{
+    opacity: 1;
+    transition: opacity .4s;
+    transition: 0ms;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2%;
+}
+
+.img-arrow1{
+    -webkit-animation: mover 1s infinite  alternate;
+    animation: mover 1s infinite  alternate;
+}
+@-webkit-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-20px); }
+}
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-20px); }
+}

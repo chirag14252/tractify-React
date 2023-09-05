@@ -1,3 +1,5 @@
+import "./ServicesCard.css";
+
 const ServicesCard = (props)=>{
     
     return(
@@ -9,7 +11,7 @@ const ServicesCard = (props)=>{
                 </span>
             </div>
             <div className="data_numbers"><center>{props.data_numberProps}</center></div>
-            <p style={{textAlign:"center"}}>{props.titleProps}</p>
+            <p className="data_para" style={{textAlign:"center"}}>{props.titleProps}</p>
            
         </div>
         

@@ -2,8 +2,16 @@
 .img-serviceCard{
     display: flex;
     border-radius: 10px;
+    justify-content: center;
 }
 
 .data_numbers{
     text-align: center;
+    font-weight: 700;
+    font-size: 2rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.data_para{
+    font-family: 'Poppins', sans-serif;
 }

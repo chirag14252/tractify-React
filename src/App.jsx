@@ -3,6 +3,7 @@ import './App.css'
 import Nav from '../component/navbar/nav.jsx'
 import Services from '../component/servicesCard/Services'
 import Section1 from '../component/Section-1/Section1'
+import Arrow from '../component/Animation/AnimationArrow/Arrow'
 function App() {
  
 
@@ -12,6 +13,7 @@ function App() {
     <Nav/>
     <Section/>
     <Services/>
+    <Arrow/>
     <Section1/>
     </>
    
