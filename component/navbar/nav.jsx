@@ -5,8 +5,6 @@ const Nav = () => {
     const heading = ["SERVICES", "SOLUTION", "CONTACT US"];
     return (
         <>
-
-
             <div className="nav-bar">
                 <div className="left-box">
                     <div className="nav-logo"><img src={logo} height={100}></img></div>

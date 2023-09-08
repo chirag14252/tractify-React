@@ -1,0 +1,31 @@
+.main-section{
+    display: flex;
+    padding: 50px 0;
+   justify-content: center
+}
+
+.left-part{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ .lazy-loaded{
+    background-color: #005989;
+    border-radius: 50%;
+    padding: 10px;
+    max-width: 100%;
+    vertical-align: middle;
+    border:0;
+    opacity: 1;
+    transition: opacity .4s;
+    transition-delay: 0ms;
+    height: 100px;
+}
+.main-section .left-part{
+    width: 42%;
+    position: relative;
+}
+
+.ex-right > *{
+    margin: 10px;
+}
