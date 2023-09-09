@@ -2,9 +2,9 @@ import "./section2.css"
 const Section2 = () => {
     return (
         <div>
-            <div className=""><center>Trusted by 218 Customers Globally</center></div>
-            <div className=""><center>Do you have any idea?</center></div>
-            <div className=""><center>We have an Expert Team!</center></div>
+            <div className="first-heading"><center>Trusted by 218 Customers Globally</center></div>
+            <div className="second-heading"><center>Do you have any idea?</center></div>
+            <div className="third-heading"><center>We have an Expert Team!</center></div>
             <div className="main-section">
                 <div className="left-part">
 

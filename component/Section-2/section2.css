@@ -27,5 +27,58 @@
 }
 
 .ex-right > *{
-    margin: 10px;
+    margin-bottom: 50px;
+}
+
+
+/* heading */
+
+.first-heading{
+font-size: 18px;
+font-family:'poppins',sans-serif;
+color: #666666;
+}
+
+.second-heading{
+font-size: 36px;
+font-family: 'poppins',sans-serif;
+color:#333333;
+font-weight: 800;
+}
+
+.third-heading{
+    font-size: 36px;
+    font-family: 'poppins',sans-serif;
+    color:#046091;
+    font-weight: 800;
+}
+
+/* styling the right section */
+
+.ex-right h3{
+    font-size: 20px;
+    color:#333333;
+    font-family: 'poppins',sans-serif;
+}
+
+.ex-right p{
+    color: #666666;
+    font-family: 'poppins',sans-serif;
+    font-size: 14px;
+    width: 50%;
+}
+
+/* positioning every divs */
+
+.ex-details_details2{
+    position: relative;
+    left: 10%;
+}
+.ex-details_details3{
+    position: relative;
+    left: 20%;
+}
+.ex-details_details4{
+    position: relative;
+    left: 10%;
 }
