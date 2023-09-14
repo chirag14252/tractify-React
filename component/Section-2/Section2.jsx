@@ -13,8 +13,8 @@ const Section2 = () => {
                 </div>
                 <div className="ex-right">
                     <div className="ex-details_details1">
-                        <div>
-                             {/* img  */}
+                        <div className="img-div">
+                        <img width="70" height="70"src="https://img.icons8.com/external-justicon-lineal-justicon/64/external-app-development-responsive-web-design-justicon-lineal-justicon.png" alt="external-app-development-responsive-web-design-justicon-lineal-justicon"/>
                         </div>
                         <div>
                             <h3>APP DEVELOPMENT</h3>
@@ -22,8 +22,8 @@ const Section2 = () => {
                         </div>
                     </div>
                     <div className="ex-details_details2">
-                        <div className="expert-icon">
-                            
+                        <div className="img-div">
+                        <img width="70" height="70" src="https://img.icons8.com/ios-filled/50/message-bot.png" alt="message-bot"/>
                         </div>
                         <div className="ex-text">
                             <h3>CHATBOT & VOICEBOT DEVELOPMENT</h3>
@@ -32,8 +32,8 @@ const Section2 = () => {
                         </div>
                     </div>
                     <div className="ex-details_details3">
-                        <div>
-                            {/* img  */}
+                        <div className="img-div">
+                        <img width="70" height="70" src="https://img.icons8.com/external-becris-lineal-becris/64/external-iot-fintech-becris-lineal-becris.png" alt="external-iot-fintech-becris-lineal-becris"/>
                         </div>
                         <div>
                             <h3>SMART IOT SOLUTIONS</h3>
@@ -41,8 +41,8 @@ const Section2 = () => {
                         </div>
                     </div>
                     <div className="ex-details_details4">
-                        <div>
-                            {/* img  */}
+                        <div className="img-div">
+                        <img width="70" height="70" src="https://img.icons8.com/ios/50/google-code.png" alt="google-code"/>
                         </div>
                         <div>
                             <h3>WEB DEVELOPMENT</h3>
@@ -50,12 +50,12 @@ const Section2 = () => {
                         </div>
                     </div>
                     <div className="ex-details_details5">
-                        <div>
-                            {/* img  */}
+                        <div className="img-div">
+                        <img width="70" height="70" src="https://img.icons8.com/ios/50/google-code.png" alt="google-code"/>
                         </div>
                         <div>
-                            <h3>ENTERPRISE RESOURCE PLANNING</h3>
-                            <p>Grow your network and connect with other companies for more shared resources.</p>
+                            <h3>WEB DEVELOPMENT</h3>
+                            <p>Not leaving your desktop customers behind, have your web app ready!</p>
                         </div>
                     </div>
                 </div>

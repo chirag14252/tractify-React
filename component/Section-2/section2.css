@@ -69,16 +69,33 @@ font-weight: 800;
 }
 
 /* positioning every divs */
-
+.ex-details_details1{
+    display: flex;
+    gap:20px;
+}
 .ex-details_details2{
     position: relative;
+    display: flex;
+    gap:20px;
     left: 10%;
 }
 .ex-details_details3{
     position: relative;
+    display: flex;
+    gap:20px;
     left: 20%;
 }
 .ex-details_details4{
     position: relative;
+    display: flex;
+    gap:20px;
     left: 10%;
+}
+.ex-details_details5{
+    display: flex;
+    gap:20px;
+}
+.img-div{
+    display: flex;
+    align-items: center;
 }
